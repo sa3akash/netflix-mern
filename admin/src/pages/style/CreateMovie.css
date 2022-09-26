@@ -1,0 +1,57 @@
+.createMovie {
+  flex: 4;
+  padding: 20px;
+}
+
+.addProductForm{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.addProductTitle{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  padding: 10px;
+}
+
+.addProductItem > select {
+  padding: 10px;
+}
+.addProductItem > textarea {
+  padding: 10px;
+}
+
+.addProductButton {
+  width: 245px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: end;
+}
+.create{
+  background: green;
+}

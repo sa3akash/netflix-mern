@@ -1,0 +1,152 @@
+.user{
+    flex: 4;
+    padding: 20px;
+    height: max-content;
+}
+.userHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.userHeader h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.userHeader button{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: teal;
+    color: #fff;
+    font-weight: bold;
+}
+.userContainerShow{
+    display: flex;
+    gap: 20px;
+}
+.userShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.userShowTop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.userShowTop img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userShowTitleTop{
+    display: flex;
+    flex-direction: column;
+}
+.userShowTitleTop > span{
+    text-transform: capitalize;
+}
+.userShowTitleTop > span:nth-of-type(1){
+    font-weight: bold;
+    color: #111;
+}
+.userShowTitleTop > span:nth-of-type(2){
+    color: gray;
+    font-size: 14px;
+}
+.ShowBottomTitle{
+    font-size: 14px;
+    color: rgb(126, 125, 125);
+    text-transform: capitalize;
+    display: inline-block;
+}
+.userShowBottomInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px;
+    color: #444;
+}
+.userShowBottomInfo svg{
+    font-size: 16px;
+}
+.cityName{
+    text-transform: capitalize;
+}
+.userUpdateTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.userUpdateForm{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userUpdateLeft{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 45%;
+}
+.userUpdateItem > label{
+    font-size: 14px;
+}
+.userUpdateItem > input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    height: 30px;
+}
+.userUpdateRight{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.userUpdateUpload > label{
+    cursor: pointer;
+}
+.userUpdateUpload img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.userUpdateRight button{
+    border: none;
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: darkblue;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.userUpdateRight button:hover{
+   background: #00008bbf;
+}

@@ -1,0 +1,116 @@
+@import "../../index.scss";
+
+.login{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url("https://firebasestorage.googleapis.com/v0/b/netflix-lama-dev.appspot.com/o/files%2Flogin.jpg?alt=media&token=ec691f18-4230-45c1-b99f-ad3ff553a83a");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  .top{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    img{
+        height: 60px;
+        cursor: pointer;
+        @include tablet{
+            height: 50px;
+        }
+        @include mobile{
+            height: 40px;
+        }
+    }
+    a{
+        padding: 8px 20px;
+        background: red;
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        @include tablet{
+            padding: 8px 16px;
+        }
+        @include mobile{
+            padding: 8px 12px;
+        }
+    }
+  }
+  .container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    form{
+        width: 320px;
+        height: 320px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 5px;
+        background: var(--main-color);
+        -webkit-box-shadow: 8px 5px 32px 2px rgba(255,255,255,0.17); 
+        box-shadow: 8px 5px 32px 2px rgba(255,255,255,0.17);
+        input{
+            height: 40px;
+            border-radius: 5px;
+            outline: none;
+            padding: 0 10px;
+        }
+        button{
+            height: 40px;
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+            background: red;
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        span{
+            color: lightgray;
+            font-size: 14px;
+            margin: 5px 0;
+            b{
+                cursor: pointer;
+                margin-left: 5px;
+                color: #fff;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        small{
+            font-weight: 300;
+            font-size: 13px;
+            b{
+                cursor: pointer;
+                font-weight: 400;
+                margin-top: 15px;
+            }
+        }
+    }
+  }
+}

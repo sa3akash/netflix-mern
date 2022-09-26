@@ -1,0 +1,102 @@
+.movie{
+    flex: 4;
+    padding: 20px;
+}
+.movieTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.movieTitleContainer h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.movieTitleContainer > a > button{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: teal;
+    color: #fff;
+    font-weight: bold;
+}
+.movieTop{
+    display: flex;
+    gap: 20px;
+}
+.movieTopRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.movieInfoTop{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+.movieInfoTop img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.movieInfoTop span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.movieInfoBottom{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.productInfoItem{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.productInfoItem > span:nth-of-type(1){
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.productInfoItem > span:nth-of-type(2){
+    color: #555;
+    text-transform: capitalize;
+}
+
+
+.movieTopRight{
+    margin-top: 20px;
+}
+.movieTopRight{
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.movieBottom{
+    margin-top: 20px;
+}
+.movieEditTitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.movieEditContainer{
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+
+
+.movieEditContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}

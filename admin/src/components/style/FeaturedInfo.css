@@ -1,0 +1,44 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.featurdItem{
+    flex: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 30px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+}
+.featuredTitle{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.fContainer{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fContainer > span:nth-of-type(1){
+   font-size: 30px;
+   font-weight: bold;
+}
+.fContainer > span:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fContainer > span > svg{
+    font-size: 18px;
+    color: green;
+}
+.fContainer .negative{
+    color: red;
+}
+.fsubTitle{
+    font-size: 15px;
+    color: gray;
+}

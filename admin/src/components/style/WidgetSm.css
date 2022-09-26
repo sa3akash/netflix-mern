@@ -1,0 +1,65 @@
+.wSm{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.widgetSmTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.widgetSmList{
+    display: flex;
+    flex-direction: column;
+}
+.widgetLgItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.widgetSmUser{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.widgetSmUser img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.widgetUserSpan{
+    display: flex;
+    flex-direction: column;
+}
+.widgetSmUser .widgetUserSpan > span{
+    font-size: 14px;
+}
+.widgetSmUser .widgetUserSpan > span:nth-of-type(1){
+    font-weight: bold;
+}
+.widgetSmUser .widgetUserSpan > span:nth-of-type(2){
+    color: #555;
+    font-size: 13px;
+}
+.widgetSmActionButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 255);
+    cursor: pointer;
+    color: #555;
+    transition: 0.3s;
+}
+.widgetSmActionButton:hover{
+    color: black;
+    background-color: rgb(216, 214, 255);
+}
+.widgetSmActionButton svg{
+    font-size: 14px;
+}

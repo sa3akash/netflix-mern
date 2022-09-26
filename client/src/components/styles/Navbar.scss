@@ -1,0 +1,116 @@
+@import "../../index.scss";
+
+.navbar{
+    font-size: 14px;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: linear-gradient(to top, transparent 0%, rgba(0,0,0,0.2) 100%);
+    &.backgorundScrolled{
+        background: var(--main-color);
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 50px;
+        @include mobile{
+            margin: 0 20px;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            @include mobile{
+                gap: 10px;
+            }
+            img{
+                height: 45px;
+                margin-right: 40px;
+                cursor: pointer;
+                @include tablet{
+                    margin-right: 0px;
+                }
+                @include mobile{
+                    height: 30px;
+                }
+            }
+            span{
+                cursor: pointer;
+                @include tablet{
+                    display: none;
+                }
+            }
+            .importantLink{
+                @include tablet{
+                    display: block;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            svg{
+                font-size: 22px;
+                cursor: pointer;
+                @include tablet{
+                    display: none;
+                }
+            }
+            .importantSvg{
+                @include tablet{
+                    display: block;
+                }
+            }
+            .rightKid{
+                @include mobile{
+                    display: none;
+                }
+            }
+            img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 5px;
+                cursor: pointer;
+                @include mobile{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            .profile{
+                display: flex;
+                align-items: center;
+                position: relative;
+                .profileButton{
+                    position: absolute;
+                    top: 50px;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    background: var(--main-color);
+                    border-radius: 5px;
+                    overflow: hidden;
+                    padding: 5px 0;
+                    @include mobile{
+                        top: 40px;
+                        left: -28px;
+                    }
+                    span{
+                        padding: 5px 20px;
+                        cursor: pointer;
+                        &:hover{
+                            background: #383737;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

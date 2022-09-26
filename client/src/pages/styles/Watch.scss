@@ -1,0 +1,38 @@
+
+.watchWapper{
+    width: 100%;
+    height: 100vh;
+    background: var(--main-color);
+    .watch{
+        width: 100%;
+        height: 100%;
+        position: relative;
+            .back{
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                z-index: 99;
+                color: #fff;
+                font-size: 18px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                background: transparent;
+                gap: 5px;
+                svg{
+                    font-size: 30px;
+                    background: transparent;
+                }
+            }
+            video{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                
+            }
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

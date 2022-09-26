@@ -1,0 +1,63 @@
+.createUser{
+    flex: 4;
+    padding: 20px;
+}
+.newUserTitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.newUserFormItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newUserFormItem > label{
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.newUserFormItem > input{
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px ;
+    border-radius: 5px;
+}
+.newUserGenderContainer > label{
+    color: #555;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.newUserFormItem > select{
+    height: 40px;
+    color: #555;
+    border-radius: 5px;
+}
+.addUserButton{
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    border-radius: 5px;
+    background: darkblue;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+    align-self: end;
+    height: 40px;
+}
+.addUserButton:hover{
+    background: #00008bbf;
+ }

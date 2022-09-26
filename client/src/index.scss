@@ -1,0 +1,30 @@
+:root{
+  --main-color: #0b0b0b;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@mixin tablet {
+  @media (max-width: 850px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 550px) {
+    @content
+  }
+}

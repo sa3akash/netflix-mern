@@ -1,0 +1,54 @@
+.wLg{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+}
+.widgetLgTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLgTable thead{
+    text-align: left;
+}
+.widgetLgUser img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.widgetLgUser span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 300;
+}
+.widgetLgStatusButton{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.widgetLgStatusButton.approved{
+    background: #e5faf2;
+    color: #3bb077;
+}
+.widgetLgStatusButton.declined{
+    background: #fff0f1;
+    color: #d95087;
+}
+.widgetLgStatusButton.pending{
+    background: #ebf1fe;
+    color: #2a7ade;
+}

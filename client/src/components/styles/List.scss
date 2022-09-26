@@ -1,0 +1,42 @@
+.list{
+    width: 100%;
+    margin: 10px 0;
+    .listTitle{
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .wrapper{
+        position: relative;
+        .sliderArrow{
+            width: 50px;
+            height: 100%;
+            background: rgba(20, 20, 20, 0.537);
+            color: #fff;
+            position: absolute;
+            z-index: 99;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            cursor: pointer;
+            &.right{
+                right: 0;
+                
+            }
+            &.left{
+                left: 0;
+            }
+        }
+        .container{
+            margin-left: 50px;
+            display: flex;
+            gap: 5px;
+            width: max-content;
+            margin-top: 10px;
+            transform: translateX(0px);
+            transition: all 0.2s;
+        }
+    }
+}

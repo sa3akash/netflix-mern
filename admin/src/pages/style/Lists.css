@@ -1,0 +1,102 @@
+.movieList{
+    flex: 4;
+    margin: 0 20px;
+    padding: 20px;
+    -webkit-box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33); 
+    box-shadow: 2px 16px 37px -10px rgba(0,0,0,0.33);
+    border-radius: 10px;
+    height: max-content;
+}
+.movieHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movieHeaderContainer h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.movieHeaderContainer button{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: teal;
+    color: #fff;
+    font-weight: bold;
+}
+.movieContainer{
+    display: flex;
+    align-items: center;
+}
+.movieContainer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.buttonContainer button{
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.buttonEdit{
+    background-color: rgb(214, 247, 214);
+    color: rgb(1, 158, 1);
+}
+.buttonDelete{
+    background-color: rgb(248, 200, 200);
+    color: rgb(252, 56, 56);
+}
+
+
+
+.alertContainer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dangarusAlert{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dangarusAlert >div{
+    display: flex;
+    align-items: center;
+    background: rgb(255, 202, 202);
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.buttonAlert{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.buttonAlert button{
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttonAlert > button:nth-of-type(1){
+    background: rgb(170, 212, 170);
+    color: rgb(0, 109, 0);
+}
+.buttonAlert > button:nth-of-type(2){
+    background: rgb(223, 169, 169);
+    color: rgb(102, 19, 19);
+}
